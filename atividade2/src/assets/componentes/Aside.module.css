@@ -1,0 +1,33 @@
+.bloco{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(181, 186, 187);
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.conteudo{
+    width: 60%;
+    background-color:gray ;
+    height: 450px;
+}
+
+.caixa{
+    width: 170px;
+    height: 150px;
+    background-color: rgb(42, 93, 137);
+    position: absolute;
+    left: 721px;
+}
+
+.caixadois{
+    width: 170px;
+    height: 150px;
+    background-color: rgb(103, 0, 90);
+    position: absolute;
+    top:155px;
+    left:721px ;
+}
+

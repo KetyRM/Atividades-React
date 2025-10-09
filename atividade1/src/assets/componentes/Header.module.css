@@ -1,0 +1,17 @@
+header{
+    position: relative;
+    flex-direction: row;
+    display: flex;
+}
+
+.azul{
+    width: 20%;
+    height: 120px;
+    background-color: blue;
+}
+
+.vermelho{
+    width: 80%;
+    height: 120px;
+    background-color: red;
+}

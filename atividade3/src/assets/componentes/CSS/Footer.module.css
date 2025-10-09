@@ -1,0 +1,32 @@
+.footerHome{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    background-color:black;
+    color: white;
+    gap: 10px;
+
+}
+
+.textoum{
+    position: relative;
+    display: flex;
+
+}
+.redes{
+    width: 200px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.rede{
+    width: 30px;
+    height: 30px;
+}
