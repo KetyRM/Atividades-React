@@ -1,0 +1,152 @@
+.fundo{
+    width: 100%;
+    height: 1320px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 15px;
+}
+
+.fundo1{
+    width: 100%;
+    height: 330px;
+    background-color: rgb(157, 7, 7);
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.rosa{
+    height: 280px;
+    width: 620px;
+    background-color: pink;
+}
+/* Para responsividade*/
+@media (max-width: 768px) {
+    
+    .fundo1 {
+        flex-direction: column; 
+        height: auto; 
+        gap: 10px;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px 0;
+        
+    }
+
+    .rosa {
+        width: 90%; 
+        max-width: 90%;
+        height: 150px; 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fundo2{
+    height: 330px;
+    width: 100%;
+    background-color:rgb(102, 204, 199) ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.branca{
+    width: 210px;
+    height: 260px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+/*Responsivdade */
+@media (max-width: 768px){
+     .fundo2 {
+        display: grid; 
+        grid-template-columns: 1fr 1fr; 
+        gap: 15px; 
+        padding: 15px;
+        height: auto; 
+        width: auto;
+    }
+
+    .branca {
+        width: auto; 
+        height: 180px; 
+    }
+}
+
+
+
+
+
+
+
+
+
+.fundo3{
+    height: 330px;
+    width: 100%;
+    background-color: rgb(128, 62, 15);
+}
+
+
+.fundo4{
+    height: 330px;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.azul{
+    height: 280px;
+    width: 620px;
+    background-color: rgb(17, 17, 91);
+
+}
+.verde{
+    height: 280px;
+    width: 620px;
+    background-color: aqua;
+
+}
+@media (max-width: 768px) {
+    
+    .fundo4 {
+        flex-direction: column; 
+        height: auto; 
+        gap: 10px;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px 0;
+        
+    }
+
+    .azul{
+        width: 90%; 
+        max-width: 90%;
+        height: 150px; 
+    }
+
+    .verde{
+        width: 90%; 
+        max-width: 90%;
+        height: 150px; 
+    }
+}

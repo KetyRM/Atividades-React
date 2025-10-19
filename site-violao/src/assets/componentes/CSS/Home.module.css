@@ -1,0 +1,372 @@
+.fundo{
+    width: 100%;
+    height: 1320px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 15px;
+}
+
+.fundo1{
+    width: 100%;
+    height: 330px;
+    background-color: rgb(157, 7, 7);
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.rosa{
+    height: 250px;
+    width: 620px;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 15px;
+    color: white;
+}
+
+.rosa1{
+    height: 280px;
+    width: 620px;
+    background-size: cover;       /* preenche toda a div */
+    background-position: center;  /* centraliza a imagem */
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+
+    .fundo1 {
+        flex-direction: column; 
+        height: auto; 
+        gap: 10px;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    .rosa {
+        width: 90%; 
+        max-width: 90%;
+        height: auto; 
+    }
+
+    .rosa1 {
+        width: 90%; 
+        max-width: 90%;
+        height: 150px;  
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    /* Ajuste do texto dentro das divs */
+    .rosa h2, .rosa1 h2 {
+        font-size: 0.9rem; 
+        line-height: 1.2; 
+    }
+
+    .rosa p, .rosa1 p {
+        font-size: 0.6rem; 
+        line-height: 1.4; 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fundo2{
+    height: 330px;
+    width: 100%;
+    background-color:rgb(102, 204, 199) ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.branca{
+    width: 210px;
+    height: 260px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: flex-start; /* faz os itens ficarem no topo do container */
+    align-items: center;  
+}
+
+.branca img {
+    width: 100%;
+    height: 140px;
+    border-radius: 10px ;
+   
+}
+
+.branca h3 {
+    font-size: 0.9rem;    
+    text-align: center;    
+    margin: 0;
+}
+
+.branca span {
+    color: #e60000;        
+    font-weight: bold;
+}
+@media (max-width: 768px){
+     .fundo2 {
+        display: grid; 
+        grid-template-columns: 1fr 1fr; 
+        gap: 15px; 
+        padding: 15px;
+        height: auto; 
+        width: auto;
+    }
+
+    .branca {
+        width: auto; 
+        height: 180px; 
+    }
+
+    .branca img {
+        width: 100%;      
+        height: auto;     
+    }
+
+    .branca h3 {
+        font-size: 10px;  
+        margin-top: 5px;  
+    }
+
+    .branca span {
+        font-size: 12px;
+    }
+}
+
+
+
+.fundo3{
+    height: 330px;
+    width: 100%;
+    background-color: rgb(128, 62, 15);
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mapa{
+    height: 280px;
+    width: 620px;
+    border-radius: 10px;
+}
+
+.mapa iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 10px;
+}
+
+.texto_lugar{
+    height: 250px;
+    width: 620px;
+    background-color: rgba(240, 111, 83, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 15px;
+    gap: 50px; 
+}
+
+.titu2,.ti2{
+    color: white;
+    position: relative;
+    margin: 0;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+    
+    .fundo3 { /* corrigido de .bloco_laranja para .fundo3 */
+        flex-direction: column; 
+        height: auto; 
+        gap: 10px;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px 0;  
+    }
+
+    .mapa, .texto_lugar{
+        width: 90%; 
+        max-width: 90%;
+        height: 150px; 
+    }
+
+    .titu2{
+        font-size: 0.9rem; 
+        line-height: 1.2; 
+    }
+
+    .ti2{
+        font-size: 0.6rem; 
+        line-height: 1.4; 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.fundo4{
+    height: 390px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.azul{
+    height: 280px;
+    width: 620px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 15px; 
+
+}
+.verde{
+     background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    height: 30px;
+    width: 80%;
+    border-radius: 3px;
+    border: 2px solid black;   /* contorno preto */
+}
+textarea{
+    border: 2px solid black ;
+    width: 60%;
+    height: 95px;
+}
+button{
+    width: 75%;
+    height: 45px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.titulo2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    color: rgb(4, 4, 106);
+    align-items: center;
+    justify-content: center;
+}
+.acesse{
+    font-size: 25px;
+}
+.simbolos{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.i7{
+    width: 90px;
+    height: 90px;
+}
+   
+@media (max-width: 768px) {
+    
+    .fundo4 {
+        position: relative;
+        display: flex;
+        flex-direction: column; 
+        height: auto; 
+        gap: 3px;
+        justify-content:space-between;
+        align-items: center;
+        padding: 5px 0;
+       
+    }
+
+    .azul{
+        width: 80%; 
+        max-width: 80%;
+        height: 150px; 
+        gap: 2px;
+    }
+
+    .verde{
+        width: 80%;
+        height:60px;
+        max-width: 80%;
+    }
+
+     label{
+        font-size: 7px;
+    }
+
+       /* Ajustes de inputs, textarea e botão */
+    input,button {
+        width: 50%; /* ocupam toda largura disponível */
+        font-size: 7px;
+        height: 12px; /* para textarea e botão se adaptarem */
+    }
+
+    textarea {
+        min-height: 10px ; /* altura mínima */
+        height: 5px;
+        width: 50%;
+        font-size: 8px;
+    }
+
+    button {
+        height: 14px;
+    }
+
+    /* Ajustes de texto e imagens da caixa7 */
+    .acesse {
+        font-size: 9px ; /* reduz o tamanho do título */
+        text-align: center;
+    }
+
+    .i7 {
+        width: 30px ;
+        height: 30px;
+    }
+}

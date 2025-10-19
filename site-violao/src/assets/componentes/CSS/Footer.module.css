@@ -1,0 +1,59 @@
+footer{
+        background-color: black;
+    width: 100%;
+    height: 280px;
+    position: relative;
+    flex-direction: column;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+.elementos{
+    width: 400px ;
+    height: 150px ;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.text3{
+    position: relative;
+    display: flex;
+    flex-direction: column; /* divs ficam empilhadas */
+    align-items: center;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    gap: 30px;
+
+}
+.soci{
+    width:40px;
+    height:40px;
+}
+
+
+@media (max-width: 768px) {
+    footer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 110px; /* ajusta a altura conforme o conteúdo */
+    }
+
+    h4,p{
+        font-size: 15px;
+    }
+    .soci{
+        width: 20px;
+        height: 20px;
+
+    }
+}
