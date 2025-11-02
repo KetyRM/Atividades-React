@@ -1,18 +1,48 @@
-section{
-    display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-}
-.img {
-    width: 100%;
-    height: 100vh; 
-    overflow:hidden; 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.imgaru {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; 
-    display: block; 
+.ar{
+    position: relative;
+    display: flex;
+    background-image: url(../../imagens/aruba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    gap:30rem;
+}
+.titulo{
+    width: 500px;
+}
+h1{
+    font-size: bold;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(186, 234, 234, 0.5);
+    width: 500px;
+    height: 450px;
+    margin-top:2rem;
+    align-items: center;
+    border-radius: 3px;
+    gap: 2rem;
+    padding: 50px;            
+
+}
+
+img{
+    height: 60px;
+    width: 100px;
+}
+
+.info{
+    background-color: blueviolet;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
